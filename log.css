@@ -1,0 +1,55 @@
+<style>
+input{
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:;
+    margin: 0;
+    padding: 0;
+}
+
+.wadza {
+    width: 300px;
+    margin: 50px auto;
+    background-color: black;
+    padding: 20px;
+    color: grey;
+    
+    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #29E1EF;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+</style>

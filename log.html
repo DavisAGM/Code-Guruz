@@ -5,72 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <style>
-        input{
-            display: block;
-        }
-       
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-image:;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .wadza {
-            width: 300px;
-            margin: 50px auto;
-            background-color: black;
-            padding: 20px;
-            color: grey;
-            
-            
-        }
-        
-        h2 {
-            text-align: center;
-            color: white;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: grey;
-        }
-        
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid whitesmoke;
-            box-sizing: border-box;
-        }
-        
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            background-color: #29E1EF;
-            color: black;
-            cursor: pointer;
-        }
-        
-        input[type="submit"]:hover {
-            background-color: green;
-        }
-    </style>
+<LINK rel="stylesheet" href="log.css" >
 </head>
 <body>
     
     <div class="wadza">
-        <form>
+        <form onsubmit="return Validate() " action="Validate.php" method="post">
             <h2>LOGIN</h2>
-            <input type="text" value="" placeholder="Email"><br>
-            <input type="password" placeholder="Password" value=""><br> 
-            <input type="submit" value="Login"><br>
+            <input type="text" id="email" placeholder="Email"><br>
+            <input type="password" id="password" placeholder="Password" value=""><br> 
+            <input type="submit" value="Login"><br><br>
             Already have an account ?&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<a>Sign Up</a>
         </form>
     </div>
+    <script src="log.js"></script>
 </body>
 </html>
